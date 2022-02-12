@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "yumm";
+    src: url("./resources/YummFont.ttf");
+}
+
+
+body {
+    font-family: 'yumm';
+    font-size: 3vw;
+    color: transparent;
+    margin: 0px;
+    letter-spacing: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+h1 {
+    padding: 10%;
+    font-size: 10.50vw;
+    background-image: linear-gradient(90deg, rgba(173,127,249,1) 0%, rgba(134,205,251,1) 9%, rgba(203,253,137,1) 21%, rgba(251,141,126,1) 33%, rgba(173,127,249,1) 45%, rgba(134,205,251,1) 56%, rgba(203,253,137,1) 68%, rgba(251,141,126,1) 82%, rgba(173,127,249,1) 97%);
+    background-size: 190%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-stroke: 4px black;
+    animation: bg-animation 8s infinite;
+}
+
+@keyframes bg-animation {
+    0%{
+        background-position: left;
+    }
+
+    100%{
+        background-position: right;
+    }
+}
