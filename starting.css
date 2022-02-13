@@ -25,7 +25,7 @@ h1 {
     background-size: 190%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-stroke: 4px black;
+    -webkit-text-stroke: 1px black;
     animation: bg-animation 8s infinite;
 }
 
